@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CashBack</string>
+    <string name="cash_back">CASH BACK</string>
+    <string name="the_easy_way_to_get_your_payment_discount">the easy way to get your payment discount</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+</resources>
