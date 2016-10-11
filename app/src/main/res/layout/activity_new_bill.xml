@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sa.frssan.cashback.activity.NewBillActivity"
+    android:background="@drawable/app_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <sa.frssan.cashback.customview.HeaderView
+        android:id="@+id/headerView"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:id="@+id/new_bill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:tint="@color/colorPrimaryDark"
+            android:background="@color/button_color"
+            android:src="@drawable/ic_send_white_36dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/new_bill"
+            android:paddingLeft="10dp"
+            android:gravity="center_vertical"
+            android:background="@color/trans_white"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-light"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/select_the_company"
+        android:paddingLeft="10dp"
+        android:paddingTop="15dp"
+        android:textSize="22sp"
+        android:textColor="@android:color/black"
+        android:fontFamily="sans-serif-light"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/scan_the_bill"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:textSize="22sp"
+        android:textColor="@android:color/black"
+        android:fontFamily="sans-serif-light"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/date"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:textSize="22sp"
+        android:textColor="@android:color/black"
+        android:fontFamily="sans-serif-light"/>
+
+    </LinearLayout>
+
+    <sa.frssan.cashback.customview.FooterView
+        android:id="@+id/footerView"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

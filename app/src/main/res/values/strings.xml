@@ -1,7 +1,23 @@
 <resources>
-    <string name="app_name">CashBack</string>
+    <string name="app_name">Cash Back</string>
     <string name="cash_back">CASH BACK</string>
     <string name="the_easy_way_to_get_your_payment_discount">the easy way to get your payment discount</string>
     <string name="sign_in">Sign In</string>
     <string name="sign_up">Sign Up</string>
+    <string name="account_access">Account Access</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="username_password_admin">username: admin\npassword: admin</string>
+    <string name="account_details">Account Details</string>
+    <string name="personal_info">Personal Information</string>
+    <string name="two_step_verification">2-Step Verification</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="new_bill">New Bill</string>
+    <string name="trans_history">Transaction History</string>
+    <string name="help_desk">Help Desk</string>
+    <string name="select_the_company">Select the Company</string>
+    <string name="scan_the_bill">Scan the Bill</string>
+    <string name="date">Date\nTime\nUnique ID No\nGPS Location</string>
+    <string name="balance_amount">Balance Amount</string>
+    <string name="transaction_list_search_arrange_view_balanced_amount">Transaction List\nSearch\narrange\nView\nBalanced Amount</string>
 </resources>

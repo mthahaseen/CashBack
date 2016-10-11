@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="sa.frssan.cashback.activity.SignUpActivity"
+    android:background="@drawable/app_bg">
+
+    <sa.frssan.cashback.customview.HeaderView
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up"
+        android:paddingLeft="10dp"
+        android:paddingTop="15dp"
+        android:textSize="22sp"
+        android:textColor="@android:color/black"
+        android:fontFamily="sans-serif-light"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/black"/>
+
+    <Button
+        android:id="@+id/btnAccountDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/account_details"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/trans_white"/>
+
+    <Button
+        android:id="@+id/btnPersonalInformation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/personal_info"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/trans_white"/>
+
+    <Button
+        android:id="@+id/btn2StepVerification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/two_step_verification"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/trans_white"/>
+
+</LinearLayout>
